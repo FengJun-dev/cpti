@@ -32,4 +32,7 @@ def output_image(doc_path, output_path):
 
 
 if __name__ == '__main__':
-    output_image('/users/apple/desktop/Cplus2.pdf', '/users/apple/desktop/convert')
+    output_image(
+        '/users/apple/desktop/Fantasia.pdf',
+        '/users/apple/desktop/convert'
+    )
